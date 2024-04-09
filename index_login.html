@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/font.css">
+    <link rel="stylesheet" href="./src/css/responsividade.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <form id="loginForm" action="/login" method="POST">
+        <h2 class="titulo">Login de Usuário</h2>
+        <input
+          type="text"
+          name="username"
+          placeholder="Digite o usuário"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Digite sua senha"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+      <div class="container-buton">
+        <nav class="buton">
+          <ul class="btn-nav">
+            <li><a href="/index_cadastro.html">Cadastro</a></li>
+            <li><a href="/index_mudar_senha.html">Mudar senha</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
